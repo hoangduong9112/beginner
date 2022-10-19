@@ -4,6 +4,6 @@ import { InfoController } from './info.controller';
 
 @Module({
   controllers: [InfoController],
-  providers: [InfoService]
+  providers: [InfoService],
 })
 export class InfoModule {}
